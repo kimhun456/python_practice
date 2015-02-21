@@ -95,6 +95,8 @@ for mark in marks :
 	else :
 		print("%d 학생은 불합격입니다. " %number)
 
+# range 함수를 이용하여 내가 원하는 범위를 정할수 있다. 
+
 sum =0 
 for i in range(1,11):
 	sum += i
