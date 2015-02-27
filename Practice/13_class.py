@@ -30,6 +30,15 @@ class HousePark:
 		print("%s는 %s로 여행을 떠난다." %(self.name, place))
 	def __del__(self):
 		print("%s 는 죽는다. " %self.name)
+	def __add__(self,other):
+		print("%s 랑 %s는 같이 결혼한다." % (self.name,other.name))
 
 pey = HousePark("현재")
 pey.travel("부산")
+
+
+class HouseKim(HousePark):
+	lastname = "김"
+
+a = HouseKim("현재")
+print(a.lastname)
