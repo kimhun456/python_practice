@@ -13,6 +13,10 @@ class FourCal:
 	def divData(self):
 		print(self.first / self.second)
 
+
+
+
+
 a = FourCal()
 a.setData(10,3)
 a.sumData()
